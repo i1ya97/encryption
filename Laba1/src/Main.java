@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -38,7 +38,7 @@ public class Main {
                 }
             }
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
-                    new FileOutputStream("C:/Users/ilya9/IdeaProjects/encryption/text.txt"), "UTF8"));
+                    new FileOutputStream("C:/Users/ilya9/IdeaProjects/encryption/text.txt"), "UTF8"));//указать свой путь
             for(int i=0;i<alfavit.length;i++){
                 bw.write(alfavit[i]);
                 bw.write(':');
